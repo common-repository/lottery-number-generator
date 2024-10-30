@@ -1,0 +1,81 @@
+.slots,.slots .wrapper,.slots .eu-slot {
+width:30px;
+}
+
+.slots,.slots .eu-slot {
+height:30px;
+}
+
+.slots .eu-slot {
+line-height:30px;
+text-align:center;
+}
+
+.slots {
+font-size:20px;
+font-family:arial,helvetica,sans-serif;
+overflow:hidden;
+border:1px solid #DDD;
+float:left;
+margin-right:1px;
+-webkit-border-radius:15px;
+-moz-border-radius:15px;
+border-radius:15px;
+background:linear-gradient(tobottom,#feb6450%,#f1e767100%);
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#feb645',endColorstr='#f1e767',GradientType=0);
+}
+
+.slots .wrapper {
+margin:0;
+}
+
+#eu-lottery {
+border:1px solid #CCC;
+display:inline-block;
+width:auto;
+text-align:center;
+padding:4px;
+}
+
+#lottery-button {
+clear:both;
+background:0;
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed',endColorstr='#dfdfdf');
+background-color:#ededed;
+-webkit-border-top-left-radius:6px;
+-moz-border-radius-topleft:6px;
+border-top-left-radius:6px;
+-webkit-border-top-right-radius:6px;
+-moz-border-radius-topright:6px;
+border-top-right-radius:6px;
+-webkit-border-bottom-right-radius:6px;
+-moz-border-radius-bottomright:6px;
+border-bottom-right-radius:6px;
+-webkit-border-bottom-left-radius:6px;
+-moz-border-radius-bottomleft:6px;
+border-bottom-left-radius:6px;
+text-indent:0;
+border:1px solid #dcdcdc;
+display:inline-block;
+color:#777;
+font-family:arial;
+font-size:15px;
+font-weight:700;
+font-style:normal;
+height:32px;
+line-height:32px;
+text-decoration:none;
+text-align:center;
+padding:0 12px;
+}
+
+#lottery-button:hover {
+background:0;
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf',endColorstr='#ededed');
+background-color:#dfdfdf;
+}
+
+#lottery-button:active {
+position:relative;
+top:1px;
+}
